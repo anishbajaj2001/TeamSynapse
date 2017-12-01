@@ -458,10 +458,10 @@ h1,h2,h3,h4,h5,h6{font-family:"adobe-garamond-pro","Garamond","Georgia",serif}
 
 .handletter:hover,.mob-logo:hover{color:#00c666;text-decoration:none;border:none}
 
-section.pad {
-    padding: 6rem 0;
+section.nopad {
+    padding: 0rem 0;
 }
-section{padding:0rem 0;border-bottom:0px solid #eee}
+section{padding:6rem 0;border-bottom:0px solid #eee}
 
 @media (max-width: 750px) {
     section{padding:0rem 0;border-bottom:0px solid #eee}   
