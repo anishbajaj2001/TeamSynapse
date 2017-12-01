@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:500|Quicksand:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:500|Quicksand');
 
 html {
     font-family:Quicksand;
@@ -398,5 +398,117 @@ hr{margin-top:3rem;margin-bottom:3.5rem;border-width:0;border-top:1px solid}
     body#home section#x .one-half img{margin-top:100px}
 
     body#home section#make .one-half img{margin-top:75px}
+
+    body#events section .one-half.column{margin:0;width:100%}
+
+    body#events section .one-half.column:first-child{margin-bottom:2rem}
+
+    body#events section .one-half.column.technical h2{display:none}
+
+    body#schedule section#schedule-table table{margin:0 auto}
+
+    body#schedule section#schedule-table table.selected{display:inline-block}
+
+    body#schedule section#schedule-table table td,body#schedule section#schedule-table table th{padding:7.5px 10px;font-size:90%}
+
+    body#schedule section#schedule-table table td.mod,body#schedule section#schedule-table table th.mod{padding:10px 10px;font-size:110%}
+
+    section#top-info .seven{width:100%!important}
+}
+
+@media screen and (max-width: 840px) {
+    body#travel section.travel .container-lg{width:100%;height:auto;background:#fafafa}
+    body#travel section.travel .container-lg .one-fourth.columns{padding:5%}
+    body#travel section.travel .container-lg .columns{display:block!important;width:100%!important}
+}
+
+@media (max-width: 810px) {
+    footer{padding:20px 0 25px 0;text-align:center; display: none;}
+
+    footer .column{line-height:10px;width:100%!important;text-align:center;margin:0}
+
+    body#home section#x .one-half img{margin-top:110px}
+
+    body#home section#make .one-half img{margin-top:115px}
+
+    body#schedule section#schedule-table table{margin:0 auto}
+
+    body#schedule section#schedule-table table.selected{display:inline-block}
+
+    body#schedule section#schedule-table table td,body#schedule section#schedule-table table th{padding:7.5px 10px;font-size:80%}
+
+    body#schedule section#schedule-table table td.mod,body#schedule section#schedule-table table th.mod{padding:10px 10px;font-size:100%}
+}
+
+body{text-rendering:optimizeLegibility;font-family:Quicksand,sans-serif;font-size:145%}
+
+::-moz-selection{background:#00c666;color:#fff}
+
+::selection{background:#00c666;color:#fff}
+
+img{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+
+a{color:#00c666;text-decoration:none;border-bottom:1px solid #00c666}
+
+a:hover{color:#00c666;border-bottom:1px solid #00c666}
+
+h1,h2,h3,h4,h5,h6{font-family:"adobe-garamond-pro","Garamond","Georgia",serif}
+
+.handletter,.mob-logo{font-family:"Montserrat",sans-serif;line-height:75px;border:none;color:#00c666;font-size:190%;text-decoration:none;-ms-transform:translateY(3px);transform:translateY(3px);-webkit-transform:translateY(3px);-moz-transform:translateY(3px);-o-transform:translateY(3px)}
+
+.handletter:hover,.mob-logo:hover{color:#00c666;text-decoration:none;border:none}
+
+section{padding:6rem 0;border-bottom:0px solid #eee}
+
+@media (max-width: 750px) {
+    section{padding:0rem 0;border-bottom:0px solid #eee}   
+}
+
+section.grey{background:#fafafa}.row.grey{background:#fafafa}
+
+header{padding-top:0px}
+
+section#footer{padding:8rem 0 6rem 0;text-align:center}
+
+section#footer h4{margin-bottom:0.5rem;font-family:"calluna-sans",sans-serif;text-transform:uppercase;font-size:120%;color:#aaa;letter-spacing:0.02em;font-weight:300}
+
+section#footer h2{margin-bottom:3rem}
+
+section#footer a{margin-top:2rem;font-size:120%}
+
+footer{height:70px;line-height:70px}
+
+footer a{color:#000;border:none}
+
+footer a:hover{text-decoration:none;border-bottom:none;color:#00c666}
+
+.left{text-align:left}
+
+.right{text-align:right}
+
+.center{text-align:center}
+
+header{background:#fff;height:70px;line-height:70px}footer a{border-bottom:none}
+footer 
+{
+    left:0px;
+    bottom:0px;
+    height:70px;
+    width:100%;
+    background:#fff;
+}
+header nav ul,header nav li,footer nav ul,footer nav li{list-style:none;margin:0}
+
+header nav li,footer nav li{display:inline-block}
+
+header nav li a,footer nav li a{padding:0 19px;color:inherit;height:90px;display:block;border:none}
+
+header nav li:last-child a,footer nav li:last-child a{margin-right:0}
+
+header nav li a:hover,footer nav li a:hover{border:none;color:#00c666}
+
+.active a,.active a:hover{border-color:#00c666}
+
+.mob-logo{display:none;color:#00c666}
 
  
