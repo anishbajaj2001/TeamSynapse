@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:400|Quicksand|Quicksand:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat|Quicksand:500');
 
 html {
     font-family:Quicksand;
@@ -14,7 +14,7 @@ body {
 }
 
 .motto {
-    font-family: Quicksand;
+    font-family: Open Sans;
     font-weight: 200;
 }
 
@@ -30,6 +30,18 @@ body {
     align-items: center;
     justify-content: center;
     color: #aaa;
+}
+
+@media (min-width: 500px) { 
+    .haha h1{font-size:5.5rem}
+}
+
+@media (max-width: 500px) { 
+    .haha h1{font-size:4.2rem}
+}
+
+@media (max-width: 350px) { 
+    .haha h1{font-size:3rem}
 }
 
 #thediv {
@@ -49,7 +61,7 @@ body {
 }
 
 a.active {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 a.active:hover {
@@ -238,11 +250,11 @@ td,th{padding:0}
 
 html{font-size:62.5%}
 
-body{font-size:1.5em;line-height:1.6;font-weight:400;font-family:Quicksand,sans-serif}
+body{font-size:1.2em;line-height:1.6;font-weight:400;font-family:Quicksand,sans-serif}
 
 h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:2rem;font-weight:300}
 
-h1{font-size:4rem;line-height:1.2;letter-spacing:-0.1rem}
+h1{font-size:4rem;line-height:1;letter-spacing:-0.1rem}
 
 h2{font-size:3.6rem;line-height:1.25;letter-spacing:-0.1rem}
 
@@ -254,7 +266,7 @@ h5{font-size:1.8rem;line-height:1.5;letter-spacing:-0.05rem}
 
 h6{font-size:1.5rem;line-height:1.6;letter-spacing:0}
 
-@media (min-width: 550px){ 
+@media (min-width: 550px) { 
     h1{font-size:5rem}
 
     h2{font-size:4.2rem}
@@ -458,9 +470,6 @@ h1,h2,h3,h4,h5,h6{font-family:"adobe-garamond-pro","Garamond","Georgia",serif}
 
 .handletter:hover,.mob-logo:hover{color:#00c666;text-decoration:none;border:none}
 
-section.nopad{
-    padding: 0 0;    
-}
 section{padding:6rem 0;border-bottom:0px solid #eee}
 
 @media (max-width: 750px) {
@@ -513,5 +522,3 @@ header nav li a:hover,footer nav li a:hover{border:none;color:#00c666}
 .active a,.active a:hover{border-color:#00c666}
 
 .mob-logo{display:none;color:#00c666}
-
- 
