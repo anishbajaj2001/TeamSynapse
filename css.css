@@ -18,6 +18,10 @@ body {
     font-weight: 300;
 }
 
+.pad {
+    padding: 50px 20px;
+}
+
 .fixed {
     position: fixed;
 }
