@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat|Quicksand:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat|Quicksand:300,500');
 
 html {
     font-family:Quicksand;
@@ -15,7 +15,7 @@ body {
 
 .motto {
     font-family: Quicksand;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .fixed {
