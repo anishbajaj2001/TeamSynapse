@@ -310,7 +310,7 @@ ol ol,ol ul,ul ol,ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}li{margin-bott
 
 code{padding:0.2rem 0.5rem;margin:0 0.2rem;font-size:90%;white-space:nowrap;border:1px solid;border-radius:4px}
 
-pre>code{display:block;padding:1rem 1.5rem;white-space:pre}td,th{padding:12px 15px;text-align:left;border-bottom:1px solid}
+pre>code{display:block;padding:1rem 1.5rem;white-space:pre}td,th{padding:12px 0px;text-align:left;border-bottom:1px solid}
 
 td:first-child,th:first-child{padding-left:0}
 

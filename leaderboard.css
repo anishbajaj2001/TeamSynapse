@@ -1,8 +1,19 @@
 table, th, td {
 	margin-top: 3%;
-    border: 1px solid black;
     text-align: center;
+    border: none;
 }
 .new{
 	font-family: Quicksand;
+	font-weight: 700;
+}
+
+.tablehead {
+	font-weight: 700;
+	background-color: #00c666;
+	color: #fff;
+}
+
+.dark {
+	background-color: #eee;
 }
